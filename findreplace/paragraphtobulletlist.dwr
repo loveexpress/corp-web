@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="allOpenDocuments">
+    <qtext qname="&lt;p&gt;(&nbsp;)*(&bull;)\1*([^&lt;]*)&lt;/p&gt;?" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="<ul><li>$3</li></ul><!--_step1-->" param2=""/>
+</dwquery>

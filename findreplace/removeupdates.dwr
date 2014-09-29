@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="document">
+    <qtext qname="../updates/((\W|\w)+)/((\W|\w)+)(\.[^&quot;]{3,4}&quot;)" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="$3$5" param2=""/>
+</dwquery>

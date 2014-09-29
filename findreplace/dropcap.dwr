@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find searchmode="allOpenDocuments">
+    <qtext qname="&lt;div&gt;\s+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; hspace=&quot;0&quot; vspace=&quot;0&quot; align=&quot;left&quot;&gt;\s+&lt;tr&gt;\s+&lt;td valign=&quot;top&quot; align=&quot;left&quot;&gt;&lt;p&gt;(.*?)&lt;/p&gt;&lt;/td&gt;\s+&lt;/tr&gt;\s+&lt;/table&gt;\s+&lt;/div&gt;((\w|\W)+?[^p&gt;\w]+&lt;p&gt;(&lt;strong&gt;)?)" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="$2$1" param2=""/>
+</dwquery>
