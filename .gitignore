@@ -3,3 +3,5 @@
 /updates
 *.DOC
 *.TXT
+/nbproject/private/
+/nbproject/
