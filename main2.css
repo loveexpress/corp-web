@@ -233,7 +233,7 @@ body {
 	height: 4px;
 }
 #sectionbox {
-	width: 450px;
+
 }
 #sec_lableleft {
 	background-image: url(images/box_lable_topleft.jpg);
@@ -390,7 +390,6 @@ body {
 }
 .editordesk {
 	background-color: #454545;
-	width: 440px;
 	font-variant: small-caps;
 	font-weight: bold;
 	font-size: 14px;
